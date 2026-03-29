@@ -1,0 +1,113 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* This will disable scrolling */
+}
+
+button {
+  background-color: rgb(135, 208, 243);
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 0;
+  transition: background-color 0.2s ease;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*means with a width: 100% = content + padding + border */
+}
+
+button:hover {
+  background-color: rgb(71, 163, 205);;
+}
+
+.registerBody {
+  background-color: rgb(222, 230, 241);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.registerForm {
+  background-color: white;
+  border-radius:5px;  
+  max-width: 400px;
+  min-width: 250px;
+  text-align: left;
+  padding: 15px;
+}
+
+.registerForm input,
+.registerForm label {
+  margin-top: 4px;
+  width: 100%;
+  font-size: 1em;
+}
+
+
+
+.task-body {
+  background-color: rgb(222, 230, 241);
+  min-height: 100vh;
+  display: flex;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.task-container-left {
+  width: 100%;
+  min-width: 350px;
+  max-width: 20vw;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.task-container-right {
+  width: 100%;
+  min-width: 350px;
+  max-width: 70vw;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.task-form {
+  width: 100%;
+  background-color: white;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.table-container {
+  width: 70%;
+}
+
+.table-container table {
+  width: 100%;
+  max-width: 90vw;
+  min-width: 250px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+th, td {
+  text-align: center;
+}
+
+
+.align-label-input {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5em;
+}
+
+.align-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
